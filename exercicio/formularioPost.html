@@ -1,0 +1,45 @@
+<!DOCTYPE html> 
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="formulario.css">
+
+    <title>Formulário de confirmação de dados</title>
+</head>
+
+    <div> 
+        <h2 id="titulo"> Formulário para confirmação de dados </h2>
+        <br>
+        <p>  Digite suas informações: </p>
+        <br>
+    </div>
+
+    <body>
+    <form action="post.php" method="post" name="frm-post"> 
+        <div> 
+          <label><strong>  Nome: </strong></label>
+          <input type="text" name="nome" placeholder="Digite seu nome" size="20">
+          <br>
+        </div>
+        
+        <div> 
+            <br>
+          <label><strong> Email: </strong></label>
+          <input type="email" name="email" placeholder="Digite seu email" size="30">
+        </div>
+
+        <div> 
+            <br>
+          <label><strong> Telefone: </strong> </label>
+          <input type="tel" name="telefone" placeholder="Digite seu telefone" size="20">
+        </div>
+
+        <div> 
+          <br>
+          <input type="submit" name="btn_enviar" value="Enviar">
+        </div>
+
+    </form>
+</body>
